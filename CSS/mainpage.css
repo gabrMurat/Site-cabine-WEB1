@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+ }
+ 
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+a{
+    color: rgb(29, 30, 31);
+    text-decoration: none;
+}
+
+/* MENU */
+header {
+    display: flex;
+    color: rgb(68, 65, 65);
+    padding: 20px; 
+    text-align: right;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    }
+
+.navlist{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;  
+    align-self: center;
+    border: 12px;
+    border-color: red; 
+}
+.logo{
+    justify-content: flex-start;
+}
+
+.item{
+    padding-right: 25px;
+}
+
+.item:hover{
+    color: rgb(255, 140, 0);  
+}
+
+    
+section {
+    padding: 0px;
+}
+
+/*banner*/
+.banner{
+    width: 100%;
+    height: 450px;
+    background-image: url(../IMG/BANNER.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    align-content: flex-start;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    justify-content: space-around;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.primeiro{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.paragrafo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    padding: 50px;
+    text-align: center;
+       
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 45%;
+  
+}
+
+.template{
+    border-radius: 15px;
+    flex-shrink: 50%;
+    padding-left: 15px;
+}
+
+#destaque{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 50px;
+    color: coral;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+
+.lista{
+    padding-top: 25px;
+}
+
+#contrate {
+    padding-top: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;   
+}
+
+#texto{
+    font-size: larger;
+}
+.orcamento{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#faca{
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 12px;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+#faca:hover{
+    background-color: rgb(76, 85, 219);
+
+}
+
+.equipamentos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+}
+
+.botao{
+    padding: 100px;
+    border: 2px coral solid;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#cabine{
+    background-image: url(../IMG/CCPDE0819.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+#espelho{
+    background-image: url(../IMG/espelho.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#spinner{
+    background-image: url(../IMG/ERSU0554.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+#totem{
+    background-image: url(../IMG/Totem.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
